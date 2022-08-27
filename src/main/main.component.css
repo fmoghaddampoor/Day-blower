@@ -29,6 +29,12 @@
   justify-content: center;
 }
 
-.example-form-field {
+.UserNameField {
   width: 200px;
+  display: flex;
+}
+
+.PasswordField {
+  width: 200px;
+  display: flex;
 }
