@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -8,4 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class MainComponent {
   userNameValue = '';
   passwordValue = '';
+
+  // Login
+  Login() 
+  {
+    // Make HTTP request to authenticate user
+    // Set login status in application
+  }
 }
