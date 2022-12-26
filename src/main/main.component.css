@@ -14,7 +14,7 @@
   position: relative;
 }
 
-/* ThPassword box*/
+/* The Password box*/
 .passwordBox {
   background-color: white;
   margin-right: Auto;
@@ -29,11 +29,13 @@
   justify-content: center;
 }
 
+/* User name field*/
 .UserNameField {
   width: 200px;
   display: flex;
 }
 
+/* UPassword field*/
 .PasswordField {
   width: 200px;
   display: flex;
