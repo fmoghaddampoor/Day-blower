@@ -17,6 +17,9 @@ export class MainComponent {
   userNameValue = '';
   passwordValue = '';
 
+  // Field to store the language
+  lanaguageValue = 'en';
+
   // Inject the Router service.
   constructor(private router: Router) {}
 
