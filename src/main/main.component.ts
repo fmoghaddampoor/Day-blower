@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -9,10 +10,17 @@ export class MainComponent {
   userNameValue = '';
   passwordValue = '';
 
+  constructor(private router: Router) {}
+
   // Login
   Login() 
   {
-    // Make HTTP request to authenticate user
-    // Set login status in application
+    if (this.userNameValue === 'admin' && this.passwordValue === 'admin') {
+      this.router.navigate(['/another-page']);
+    } 
+    else 
+    {
+      window.alert('Invalid username or password!');
+    }
   }
 }
