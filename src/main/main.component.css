@@ -35,8 +35,60 @@
   display: flex;
 }
 
-/* UPassword field*/
+/* Password field*/
 .PasswordField {
   width: 200px;
+  display: flex;
+}
+
+.smaller-mat-select {
+  display: block;
+  width: 80px;
+}
+
+
+.TitleWing
+{
+  width: 100%;
+  float: left;
+}
+
+.BodyWing
+{
+  width: 100%;
+  float: left;
+  background-color: blue;
+  display: flex;
+}
+
+.LeftWing{
+  width: 25%;
+  height: 100px;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+}
+
+.RightWing{
+  width: 25%;
+  height: 100px;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.MiddleWing{
+  width: 50%;
+  height: 100px;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: center;
   display: flex;
 }
