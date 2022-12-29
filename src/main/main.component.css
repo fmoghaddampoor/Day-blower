@@ -1,8 +1,12 @@
+.HtmlBody {
+  background-color: black;
+}
+
 /* The header image */
 .header-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://www.iottechnews.com/wp-content/uploads/sites/5/2022/02/growth-digitalisation-industry-4-manufacturing-iot-internet-of-things-2048x1365.jpg');
+    url("https://www.iottechnews.com/wp-content/uploads/sites/5/2022/02/growth-digitalisation-industry-4-manufacturing-iot-internet-of-things-2048x1365.jpg");
 
   /* Set a specific height */
   height: 400px;
@@ -16,29 +20,23 @@
 
 /* The Password box*/
 .passwordBox {
-  background-color: white;
-  margin-right: Auto;
-  margin-left: Auto;
-  margin-top: 10px;
-  width: 400px;
-  height: 380px;
-  border: 2px solid #000;
-  border-radius: 15px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  background-color: White;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 /* User name field*/
 .UserNameField {
   width: 200px;
   display: flex;
+  justify-content: center;
 }
 
 /* Password field*/
 .PasswordField {
   width: 200px;
   display: flex;
+  justify-content: center;
 }
 
 .smaller-mat-select {
@@ -46,22 +44,17 @@
   width: 80px;
 }
 
-
-.TitleWing
-{
+.TitleWing {
   width: 100%;
   float: left;
 }
 
-.BodyWing
-{
+.BodyWing {
   width: 100%;
-  float: left;
-  background-color: blue;
   display: flex;
 }
 
-.LeftWing{
+.LeftWing {
   width: 25%;
   height: 100px;
   float: left;
@@ -71,7 +64,7 @@
   display: flex;
 }
 
-.RightWing{
+.RightWing {
   width: 25%;
   height: 100px;
   float: left;
@@ -83,7 +76,7 @@
   display: flex;
 }
 
-.MiddleWing{
+.MiddleWing {
   width: 50%;
   height: 100px;
   float: left;

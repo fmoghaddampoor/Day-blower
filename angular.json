@@ -26,7 +26,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/theme.scss", "src/styles.css"],
+            "styles": ["./node_modules/bootstrap/dist/css/bootstrap.css","src/theme.scss", "src/styles.css"],
             "scripts": []
           },
           "configurations": {
