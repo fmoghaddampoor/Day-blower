@@ -1,22 +1,22 @@
-<body class ="HtmlBody">
+<body class="HtmlBody">
   <!-- Header image -->
   <div class="header-image"></div>
 
   <!-- Password box -->
-  <div class="container d-flex h-100 flex-column passwordBox">
-  
+  <div class="container d-flex h-100 flex-column passwordBox rounded">
+
     <!-- Title -->
     <div class="row h-10">
-  
+
       <!-- Left -->
       <div class="LeftWing">
       </div>
-  
+
       <!-- Login title -->
       <div class="MiddleWing">
         <h1>Login</h1>
       </div>
-  
+
       <!-- Right -->
       <div class="RightWing">
         <mat-form-field class="smaller-mat-select">
@@ -30,27 +30,35 @@
         </mat-form-field>
       </div>
     </div>
-  
+
     <!-- Body -->
     <div class="row h-90">
-      <div>
-        <mat-form-field class="UserNameField" appearance="fill">
-          <mat-label>User name</mat-label>
-          <input matInput type="text" [(ngModel)]="userNameValue" />
-          <button *ngIf="userNameValue" matSuffix mat-icon-button aria-label="Clear" (click)="userNameValue = ''">
-            <mat-icon>close</mat-icon>
-          </button>
-        </mat-form-field>
-  
-        <mat-form-field class="PasswordField" appearance="fill">
-          <mat-label>Password</mat-label>
-          <input matInput type="password" [(ngModel)]="passwordValue" />
-          <button *ngIf="passwordValue" matSuffix mat-icon-button aria-label="Clear" (click)="passwordValue = ''">
-            <mat-icon>close</mat-icon>
-          </button>
-        </mat-form-field>
-  
-        <button mat-raised-button color="primary" (click)="Login()">Login</button>
+      <div class="container d-flex h-100 flex-column">
+
+        <div class="row h-33.3 mx-auto">
+          <mat-form-field class="UserNameField" appearance="fill">
+            <mat-label>User name</mat-label>
+            <input matInput type="text" [(ngModel)]="userNameValue" />
+            <button *ngIf="userNameValue" matSuffix mat-icon-button aria-label="Clear" (click)="userNameValue = ''">
+              <mat-icon>close</mat-icon>
+            </button>
+          </mat-form-field>
+        </div>
+
+        <div class="row h-33.3 mx-auto">
+          <mat-form-field class="PasswordField" appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" [(ngModel)]="passwordValue" />
+            <button *ngIf="passwordValue" matSuffix mat-icon-button aria-label="Clear" (click)="passwordValue = ''">
+              <mat-icon>close</mat-icon>
+            </button>
+          </mat-form-field>
+        </div>
+
+        <div class="row h-33.3 mx-auto">
+          <button mat-raised-button color="primary" (click)="Login()">Login</button>
+        </div>
+
       </div>
     </div>
   </div>
