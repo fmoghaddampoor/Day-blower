@@ -18,11 +18,17 @@
   position: relative;
 }
 
+
 /* The Password box*/
 .passwordBox {
   background-color: White;
   max-width: 500px;
   max-height: 300px;
+  margin-top: 10px;
+}
+
+.titleBar{
+  background-color: #65C8DF;
 }
 
 /* User name field*/
