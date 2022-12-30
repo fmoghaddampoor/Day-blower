@@ -18,10 +18,15 @@ export class MainComponent {
   passwordValue = '';
 
   // Field to store the language
-  lanaguageValue = 'en';
+  languageValue = 'en';
 
   // Inject the Router service.
   constructor(private router: Router) {}
+
+  // On changing language
+  onLanguageChange(language: string) {
+    // Do something with the selected language
+  }
 
   // Method to handle the login process.
   Login() 

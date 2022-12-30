@@ -64,7 +64,7 @@
   width: 25%;
   height: 100px;
   float: left;
-  background-color: white;
+  background-color: #65C8DF;
   border-radius: 15px;
   justify-content: center;
   display: flex;
@@ -74,7 +74,7 @@
   width: 25%;
   height: 100px;
   float: left;
-  background-color: white;
+  background-color: #65C8DF;
   border-radius: 15px;
   text-align: center;
   justify-content: center;
@@ -86,7 +86,7 @@
   width: 50%;
   height: 100px;
   float: left;
-  background-color: white;
+  background-color: #65C8DF;
   border-radius: 15px;
   justify-content: center;
   display: flex;
