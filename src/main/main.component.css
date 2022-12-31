@@ -91,3 +91,7 @@
   justify-content: center;
   display: flex;
 }
+
+.white-text {
+  color: white;
+}
