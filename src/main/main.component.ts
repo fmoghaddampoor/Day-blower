@@ -42,4 +42,10 @@ export class MainComponent {
       window.alert('Invalid username or password!');
     }
   }
+
+   // Method to handle the sign up process.
+   SignUp() 
+   {
+    
+   }
 }

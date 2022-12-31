@@ -96,3 +96,23 @@
 .white-text {
   color: white;
 }
+
+.userNameInput{
+  width: 300;
+  margin-top: 10px;
+}
+
+.passwordInput{
+  width: 300;
+  margin-top: 10px;
+}
+
+.loginButton{
+  width: 300;
+  margin-top: 10px;
+}
+
+.signupButton{
+  width: 300;
+  margin-top: 10px;
+}
