@@ -25,6 +25,8 @@
     "@contentful/rich-text-html-renderer": "^16.0.2",
     "@contentful/rich-text-types": "^16.0.2",
     "@ng-bootstrap/ng-bootstrap": "^14.0.0",
+    "@ngx-translate/core": "^14.0.0",
+    "@ngx-translate/http-loader": "^7.0.0",
     "bootstrap": "^5.2.3",
     "contentful": "^9.2.14",
     "moment": "^2.18.1",

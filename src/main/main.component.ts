@@ -46,6 +46,6 @@ export class MainComponent {
    // Method to handle the sign up process.
    SignUp() 
    {
-    
+     // TODO document why this method 'SignUp' is empty
    }
 }
