@@ -6,10 +6,11 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatNativeDateModule } from "@angular/material/core";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 
-import { MainComponent } from "../main/main.component";
 import { MaterialExampleModule } from "./material.module";
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/", ".json");
@@ -33,7 +34,7 @@ export function createTranslateLoader(http: HttpClient) {
       },
     }),
   ],
-  declarations: [MainComponent],
-  bootstrap: [MainComponent],
+  declarations: [SignupComponent, LoginComponent],
+  bootstrap: [LoginComponent],
 })
 export class AppModule {}
