@@ -8,6 +8,7 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { MainComponent } from '../main/main.component';
 import { MaterialExampleModule } from './material.module';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   imports: [
@@ -18,6 +19,9 @@ import { MaterialExampleModule } from './material.module';
     MatNativeDateModule,
     MaterialExampleModule,
     ReactiveFormsModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en'
+  })
   ],
   declarations: [MainComponent],
   bootstrap: [MainComponent],
