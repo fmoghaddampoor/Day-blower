@@ -1,4 +1,7 @@
 {
     "SignUp": "Sign Up",
-    "Login": "Login"
+    "Login": "Login",
+    "UserCaption": "Enter your user name here",
+    "PasswordCaption": "Enter your password here",
+    "LoginTitle": "Login"
 }

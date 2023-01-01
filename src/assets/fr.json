@@ -1,4 +1,7 @@
 {
     "SignUp": "s’enregistrer",
-    "Login": "connectez-vous"
+    "Login": "connectez-vous",
+    "UserCaption": "Entrez votre nom d'utilisateur ici",
+    "PasswordCaption": "Entrez votre mot de passe ici",
+    "LoginTitle": "Connexion"
 }

@@ -1,4 +1,7 @@
 {
     "SignUp": "Únete",
-    "Login": "Iniciar sesión"
+    "Login": "Iniciar sesión",
+    "UserCaption": "Ingrese su nombre de usuario aquí",
+    "PasswordCaption": "Ingrese su contraseña aquí",
+    "LoginTitle": "Iniciar sesión"
 }
