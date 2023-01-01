@@ -33,11 +33,11 @@
       <div class="container d-flex h-100 flex-column">
 
         <div class="row h-33.3 mx-auto input-group userNameInput">
-            <input class="form-control" type="search" placeholder="Enter your user name here" [(ngModel)]="userNameValue" />
+            <input class="form-control" type="search" placeholder="{{'UserCaption' | translate}}" [(ngModel)]="userNameValue" />
         </div>
 
         <div class="row h-33.3 mx-auto input-group passwordInput">
-            <input class="form-control" type="password" placeholder="Enter your password here" [(ngModel)]="passwordValue" />
+            <input class="form-control" type="password" placeholder="{{'PasswordCaption' | translate}}" [(ngModel)]="passwordValue" />
         </div>
 
         <div class="row h-33.3 mx-auto loginButton">
