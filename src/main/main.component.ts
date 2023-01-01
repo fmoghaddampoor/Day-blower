@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 // Decorator that marks a class as an Angular component and provides configuration metadata.
 @Component({
@@ -21,11 +22,15 @@ export class MainComponent {
   languageValue = 'en';
 
   // Inject the Router service.
-  constructor(private router: Router) {}
+  constructor(private router: Router, private translate: TranslateService) {
+      translate.setDefaultLang('en');
+      translate.use('en');
+  }
 
   // On changing language
   onLanguageChange(language: string) {
-    // Do something with the selected language
+    console.log("Language is: " + language);
+    this.translate.use(language);
   }
 
   // Method to handle the login process.
