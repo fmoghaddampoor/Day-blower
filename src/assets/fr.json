@@ -1,7 +1,11 @@
 {
-    "SignUp": "s’enregistrer",
-    "Login": "connectez-vous",
-    "UserCaption": "Entrez votre nom d'utilisateur ici",
-    "PasswordCaption": "Entrez votre mot de passe ici",
-    "LoginTitle": "Connexion"
+  "SignUp": "S'inscrire",
+  "Login": "Se connecter",
+  "UserCaption": "Entrez votre nom d'utilisateur ici",
+  "PasswordCaption": "Entrez votre mot de passe ici",
+  "LoginTitle": "Se connecter",
+  "NameCaption": "Entrez votre nom ici",
+  "SurnameCaption": "Entrez votre nom de famille ici",
+  "EmailCaption": "Entrez votre adresse email ici",
+  "Submit": "Soumettre"
 }

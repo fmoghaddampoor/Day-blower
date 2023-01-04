@@ -3,5 +3,9 @@
     "Login": "Login",
     "UserCaption": "Enter your user name here",
     "PasswordCaption": "Enter your password here",
-    "LoginTitle": "Login"
+    "LoginTitle": "Login",
+    "NameCaption": "Enter your name here",
+    "SurnameCaption": "Enter your surname here",
+    "EmailCaption": "Enter your email here",
+    "Submit": "Submit"
 }

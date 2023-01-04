@@ -1,0 +1,88 @@
+.HtmlBody {
+  background-color: black;
+}
+
+/* The header image */
+.header-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.iottechnews.com/wp-content/uploads/sites/5/2022/02/growth-digitalisation-industry-4-manufacturing-iot-internet-of-things-2048x1365.jpg");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* The sign up box*/
+.signUpBox {
+  background-color: White;
+  max-width: 600px;
+  max-height: 350px;
+  margin-top: 10px;
+}
+
+.titleBar {
+  background-color: #65c8df;
+}
+
+.LeftWing {
+    width: 25%;
+    height: 100px;
+    float: left;
+    background-color: #65C8DF;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .RightWing {
+    width: 25%;
+    height: 100px;
+    float: left;
+    background-color: #65C8DF;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .MiddleWing {
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: #65C8DF;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .nameInput{
+    width: 300;
+    margin-top: 10px;
+  }
+  
+  .surnameInput{
+    width: 300;
+    margin-top: 10px;
+  }
+
+  .emailInput{
+    width: 300;
+    margin-top: 10px;
+  }
+
+  .passwordInput{
+    width: 300;
+    margin-top: 10px;
+  }
+
+  .submitButton{
+    width: 150;
+    margin-top: 10px;
+  }

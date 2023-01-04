@@ -35,6 +35,6 @@ export function createTranslateLoader(http: HttpClient) {
     }),
   ],
   declarations: [SignupComponent, LoginComponent],
-  bootstrap: [LoginComponent],
+  bootstrap: [SignupComponent],
 })
 export class AppModule {}

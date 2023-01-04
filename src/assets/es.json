@@ -1,7 +1,10 @@
 {
-    "SignUp": "Únete",
-    "Login": "Iniciar sesión",
-    "UserCaption": "Ingrese su nombre de usuario aquí",
-    "PasswordCaption": "Ingrese su contraseña aquí",
-    "LoginTitle": "Iniciar sesión"
+  "SignUp": "Registrarse",
+  "Login": "Iniciar sesión",
+  "UserCaption": "Ingrese su nombre de usuario aquí",
+  "PasswordCaption": "Ingrese su contraseña aquí",
+  "LoginTitle": "Iniciar sesión",
+  "NameCaption": "Ingrese su nombre aquí",
+  "SurnameCaption": "Ingrese su apellido aquí",
+  "EmailCaption": "Ingrese su correo electrónico aquí"
 }
