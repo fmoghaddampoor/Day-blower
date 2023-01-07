@@ -47,6 +47,6 @@ export class LoginComponent {
 
   // Method to handle the sign up process.
   SignUp() {
-    this.router.navigate(["/signup.component"]);
+    this.router.navigate(["/signup"]);
   }
 }

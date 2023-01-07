@@ -11,6 +11,8 @@ import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app/app.component";
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/", ".json");
@@ -25,6 +27,7 @@ export function createTranslateLoader(http: HttpClient) {
     MatNativeDateModule,
     MaterialExampleModule,
     ReactiveFormsModule,
+    AppRoutingModule,
     TranslateModule.forRoot({
       defaultLanguage: "en",
       loader: {
@@ -34,7 +37,7 @@ export function createTranslateLoader(http: HttpClient) {
       },
     }),
   ],
-  declarations: [SignupComponent, LoginComponent],
-  bootstrap: [LoginComponent],
+  declarations: [SignupComponent, LoginComponent, AppComponent],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
